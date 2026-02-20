@@ -1,2 +1,5 @@
 table { border-collapse: collapse; margin-top: 12px; }
 th, td { border: 1px solid #999; padding: 6px 10px; }
+#map {
+  height: 800px;
+}
