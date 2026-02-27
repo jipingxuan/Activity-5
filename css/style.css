@@ -1,5 +1,20 @@
 table { border-collapse: collapse; margin-top: 12px; }
 th, td { border: 1px solid #999; padding: 6px 10px; }
 #map {
-  height: 800px;
+  height: 90vh;
+}
+
+.sequence-control-container {
+  background: white;
+  padding: 10px;
+  border: 1px solid #999;
+}
+
+.range-slider {
+  width: 180px;
+}
+
+.step {
+  margin-top: 6px;
+  margin-right: 6px;
 }
