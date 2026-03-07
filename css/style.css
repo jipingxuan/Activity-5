@@ -1,20 +1,198 @@
-table { border-collapse: collapse; margin-top: 12px; }
-th, td { border: 1px solid #999; padding: 6px 10px; }
+/* Global */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e8f4f8;
+}
+
+/* Map */
 #map {
-  height: 90vh;
+  height: 88vh;
+  width: 100%;
+  background: #d6eaf8;
 }
 
+/* Floating title */
+#map-title {
+  position: fixed;
+  top: 14px;
+  right: 60px;
+  z-index: 1000;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.2;
+  color: rgba(30, 60, 90, 0.14);
+  pointer-events: none;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+/* Info bar */
+#info-bar {
+  padding: 10px 24px;
+  background: #f0f8ff;
+  color: #333;
+  font-size: 13px;
+  line-height: 1.5;
+  border-top: 2px solid #b0d4e8;
+}
+#info-bar .source {
+  font-size: 11px;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* Sequence controls */
 .sequence-control-container {
-  background: white;
-  padding: 10px;
-  border: 1px solid #999;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #aad4e6;
+  text-align: center;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.15);
 }
-
-.range-slider {
-  width: 180px;
+.sequence-control-container .year-display {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a3a4a;
+  margin-bottom: 6px;
 }
-
 .step {
-  margin-top: 6px;
-  margin-right: 6px;
+  width: 60px;
+  height: 30px;
+  margin: 0 6px;
+  border: 1px solid #80c8d8;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #6dd5d0, #a8e6e0);
+  color: #1a3a4a;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.step:hover {
+  background: linear-gradient(135deg, #56c8c2, #8ad8d2);
+}
+
+/* Legend controls */
+.legend-control-container {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #aad4e6;
+  font-size: 12px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+  max-width: 170px;
+}
+.legend-control-container .temporalLegend {
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 4px;
+  text-align: center;
+}
+.legend-circle {
+  fill: #6dd5d0;
+  fill-opacity: 0.55;
+  stroke: #2a8a8a;
+}
+#attribute-legend text {
+  font-size: 11px;
+  fill: #000;
+}
+
+/* Search control */
+.search-control-container {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 6px;
+  border-radius: 8px;
+  border: 1px solid #aad4e6;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+}
+.search-control-container input {
+  width: 180px;
+  padding: 5px 8px;
+  border: 1px solid #80c8d8;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+  color: #1a3a4a;
+}
+.search-control-container input:focus {
+  border-color: #56c8c2;
+  box-shadow: 0 0 4px rgba(100, 210, 200, 0.4);
+}
+.search-results {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  max-height: 160px;
+  overflow-y: auto;
+}
+.search-results li {
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #1a3a4a;
+  border-radius: 3px;
+}
+.search-results li:hover {
+  background: #d0f0f0;
+}
+
+/* Compass */
+.compass-container {
+  background: rgba(255, 255, 255, 0.85);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #aad4e6;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  text-align: center;
+  line-height: 40px;
+}
+.compass-container svg {
+  display: block;
+  margin: auto;
+}
+
+/*  Popup styling */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  border: 1px solid #80c8d8;
+}
+.leaflet-popup-content {
+  margin: 10px 12px;
+  line-height: 1.5;
+}
+.leaflet-popup-content p {
+  margin: 0.15em 0;
+}
+.popup-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a3a4a;
+  margin-bottom: 4px;
+}
+.popup-stat {
+  font-size: 12px;
+  color: #000;
+}
+.bar-chart { margin-top: 6px; }
+.bar-chart rect { fill: #6dd5d0; }
+.bar-chart rect.active { fill: #3ab0a8; }
+.bar-chart text { font-size: 9px; fill: #000; }
+
+/* Proportional symbol style */
+.leaflet-interactive {
+  transition: fill-opacity 0.15s;
+}
+
+/* Scale bar text */
+.leaflet-control-scale-line {
+  border-color: #333 !important;
+  color: #000;
+  background: rgba(255,255,255,0.7) !important;
 }

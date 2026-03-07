@@ -3,15 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Activity 6</title>
+  <title>North American City Population Growth</title>
 
-  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google Font for title -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="lib/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
+  <!-- map title overlay -->
+  <div id="map-title">City Population<br>in North America</div>
+
+  <!-- main map container -->
   <div id="map"></div>
-  <div id="panel"></div>
+
+  <!-- info panel below map -->
+  <div id="info-bar">
+    <p>
+      <strong>About this map:</strong> This interactive visualization shows population changes
+      across 18 North American cities from 2000 to 2016. Use the sequence controls to step
+      through time, and click any city to view its population history.
+    </p>
+    <p class="source">
+      Data sources: U.S. Census Bureau, Statistics Canada, INEGI Mexico 
+    </p>
+  </div>
 
   <script src="lib/leaflet/dist/leaflet.js"></script>
   <script src="js/main.js"></script>

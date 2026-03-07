@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "New York",
+        "Country": "USA",
+        "Pop_2000": 8008, "Pop_2002": 8072, "Pop_2004": 8105, "Pop_2006": 8214,
+        "Pop_2008": 8364, "Pop_2010": 8175, "Pop_2012": 8337, "Pop_2014": 8491,
+        "Pop_2016": 8537, "Pop_2025": 8258
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.006, 40.7128] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Los Angeles",
+        "Country": "USA",
+        "Pop_2000": 3694, "Pop_2002": 3728, "Pop_2004": 3769, "Pop_2006": 3820,
+        "Pop_2008": 3862, "Pop_2010": 3793, "Pop_2012": 3858, "Pop_2014": 3928,
+        "Pop_2016": 3976, "Pop_2025": 3820
+      },
+      "geometry": { "type": "Point", "coordinates": [-118.2437, 34.0522] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Chicago",
+        "Country": "USA",
+        "Pop_2000": 2896, "Pop_2002": 2869, "Pop_2004": 2841, "Pop_2006": 2826,
+        "Pop_2008": 2853, "Pop_2010": 2696, "Pop_2012": 2714, "Pop_2014": 2722,
+        "Pop_2016": 2705, "Pop_2025": 2665
+      },
+      "geometry": { "type": "Point", "coordinates": [-87.6298, 41.8781] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Houston",
+        "Country": "USA",
+        "Pop_2000": 1954, "Pop_2002": 2010, "Pop_2004": 2055, "Pop_2006": 2144,
+        "Pop_2008": 2242, "Pop_2010": 2100, "Pop_2012": 2177, "Pop_2014": 2240,
+        "Pop_2016": 2303, "Pop_2025": 2314
+      },
+      "geometry": { "type": "Point", "coordinates": [-95.3698, 29.7604] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Toronto",
+        "Country": "Canada",
+        "Pop_2000": 2481, "Pop_2002": 2530, "Pop_2004": 2576, "Pop_2006": 2620,
+        "Pop_2008": 2670, "Pop_2010": 2615, "Pop_2012": 2700, "Pop_2014": 2750,
+        "Pop_2016": 2810, "Pop_2025": 2930
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.3832, 43.6532] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Mexico City",
+        "Country": "Mexico",
+        "Pop_2000": 8605, "Pop_2002": 8688, "Pop_2004": 8720, "Pop_2006": 8773,
+        "Pop_2008": 8810, "Pop_2010": 8851, "Pop_2012": 8889, "Pop_2014": 8919,
+        "Pop_2016": 8918, "Pop_2025": 9210
+      },
+      "geometry": { "type": "Point", "coordinates": [-99.1332, 19.4326] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Phoenix",
+        "Country": "USA",
+        "Pop_2000": 1321, "Pop_2002": 1385, "Pop_2004": 1462, "Pop_2006": 1513,
+        "Pop_2008": 1567, "Pop_2010": 1446, "Pop_2012": 1488, "Pop_2014": 1537,
+        "Pop_2016": 1615, "Pop_2025": 1650
+      },
+      "geometry": { "type": "Point", "coordinates": [-112.074, 33.4484] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Philadelphia",
+        "Country": "USA",
+        "Pop_2000": 1518, "Pop_2002": 1498, "Pop_2004": 1470, "Pop_2006": 1449,
+        "Pop_2008": 1447, "Pop_2010": 1526, "Pop_2012": 1548, "Pop_2014": 1560,
+        "Pop_2016": 1568, "Pop_2025": 1550
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.1652, 39.9526] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "San Antonio",
+        "Country": "USA",
+        "Pop_2000": 1145, "Pop_2002": 1190, "Pop_2004": 1237, "Pop_2006": 1297,
+        "Pop_2008": 1351, "Pop_2010": 1328, "Pop_2012": 1383, "Pop_2014": 1437,
+        "Pop_2016": 1493, "Pop_2025": 1580
+      },
+      "geometry": { "type": "Point", "coordinates": [-98.4936, 29.4241] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Dallas",
+        "Country": "USA",
+        "Pop_2000": 1189, "Pop_2002": 1210, "Pop_2004": 1228, "Pop_2006": 1250,
+        "Pop_2008": 1280, "Pop_2010": 1198, "Pop_2012": 1241, "Pop_2014": 1281,
+        "Pop_2016": 1318, "Pop_2025": 1355
+      },
+      "geometry": { "type": "Point", "coordinates": [-96.797, 32.7767] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Montreal",
+        "Country": "Canada",
+        "Pop_2000": 1040, "Pop_2002": 1583, "Pop_2004": 1595, "Pop_2006": 1621,
+        "Pop_2008": 1650, "Pop_2010": 1650, "Pop_2012": 1680, "Pop_2014": 1698,
+        "Pop_2016": 1740, "Pop_2025": 1780
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.5673, 45.5017] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Denver",
+        "Country": "USA",
+        "Pop_2000": 554, "Pop_2002": 560, "Pop_2004": 568, "Pop_2006": 579,
+        "Pop_2008": 598, "Pop_2010": 600, "Pop_2012": 634, "Pop_2014": 664,
+        "Pop_2016": 693, "Pop_2025": 713
+      },
+      "geometry": { "type": "Point", "coordinates": [-104.9903, 39.7392] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Seattle",
+        "Country": "USA",
+        "Pop_2000": 563, "Pop_2002": 571, "Pop_2004": 572, "Pop_2006": 582,
+        "Pop_2008": 598, "Pop_2010": 608, "Pop_2012": 635, "Pop_2014": 668,
+        "Pop_2016": 704, "Pop_2025": 755
+      },
+      "geometry": { "type": "Point", "coordinates": [-122.3321, 47.6062] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Nashville",
+        "Country": "USA",
+        "Pop_2000": 546, "Pop_2002": 553, "Pop_2004": 562, "Pop_2006": 580,
+        "Pop_2008": 601, "Pop_2010": 627, "Pop_2012": 643, "Pop_2014": 660,
+        "Pop_2016": 684, "Pop_2025": 715
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.7816, 36.1627] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Portland",
+        "Country": "USA",
+        "Pop_2000": 529, "Pop_2002": 538, "Pop_2004": 543, "Pop_2006": 557,
+        "Pop_2008": 575, "Pop_2010": 583, "Pop_2012": 603, "Pop_2014": 619,
+        "Pop_2016": 639, "Pop_2025": 635
+      },
+      "geometry": { "type": "Point", "coordinates": [-122.6765, 45.5152] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Vancouver",
+        "Country": "Canada",
+        "Pop_2000": 546, "Pop_2002": 557, "Pop_2004": 570, "Pop_2006": 584,
+        "Pop_2008": 600, "Pop_2010": 603, "Pop_2012": 613, "Pop_2014": 631,
+        "Pop_2016": 648, "Pop_2025": 710
+      },
+      "geometry": { "type": "Point", "coordinates": [-123.1216, 49.2827] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Austin",
+        "Country": "USA",
+        "Pop_2000": 657, "Pop_2002": 672, "Pop_2004": 690, "Pop_2006": 720,
+        "Pop_2008": 757, "Pop_2010": 790, "Pop_2012": 842, "Pop_2014": 912,
+        "Pop_2016": 950, "Pop_2025": 1018
+      },
+      "geometry": { "type": "Point", "coordinates": [-97.7431, 30.2672] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Miami",
+        "Country": "USA",
+        "Pop_2000": 362, "Pop_2002": 370, "Pop_2004": 379, "Pop_2006": 390,
+        "Pop_2008": 400, "Pop_2010": 399, "Pop_2012": 413, "Pop_2014": 430,
+        "Pop_2016": 442, "Pop_2025": 450
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.1918, 25.7617] }
+    }
+  ]
+}
