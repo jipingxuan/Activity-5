@@ -1,1 +1,1 @@
-Final Leaflet Lab - Lab Revisions
+Final Leaflet Lab
